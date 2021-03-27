@@ -95,6 +95,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent3);
                 //return true; works same as a break statement it prevents the fall through of the switch case
                 return true;
+            case R.id.dev_info:
+                Log.i("item","Developer info selected");
+                Intent intent4 = new Intent(MainActivity.this,DevActivity.class);
+                startActivity(intent4);
+                return true;
             default:
                 return false;
         }

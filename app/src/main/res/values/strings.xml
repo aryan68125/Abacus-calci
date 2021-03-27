@@ -47,5 +47,6 @@
     <string name="Weight_Converter">Weight Converter</string>
     <string name="Power_Converter">Power Converter</string>
     <string name="Force_Converter">Force Converter</string>
+    <string name="Developer_info">Developer Information</string>
 
 </resources>

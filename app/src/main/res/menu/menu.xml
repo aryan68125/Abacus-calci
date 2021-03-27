@@ -12,5 +12,9 @@
         android:title="Times Table"
         android:id="@+id/times_table"
         />
+    <item
+        android:title="Developer Info"
+        android:id="@+id/dev_info"
+        />
 
 </menu>
