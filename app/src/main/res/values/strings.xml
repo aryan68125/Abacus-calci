@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Abacus</string>
+
+    <!-- strings related to calculator buttons -->
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button0">0</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonAdd">+</string>
+    <string name="buttonSub">-</string>
+    <string name="buttonMul">X</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonDot">.</string>
+    <string name="buttonBrackets">()</string>
+    <string name="buttonClear">C</string>
+    <string name="buttonAns">Ans</string>
+    <string name="exponent">^</string>
+    <string name="plusMinus">+/-</string>
+    <string name="BackSpace"> </string>
+    <string name="editText">Input</string>
+    <string name="buttonPower">^</string>
+    <string name="buttonSin">sin</string>
+    <string name="buttonCos">cos</string>
+    <string name="buttonTan">tan</string>
+    <string name="buttonSinInverse">sin -1</string>
+    <string name="buttonCosInverse">cos -1</string>
+    <string name="buttonTanInverse">tan -1</string>
+
+    <!--Activity name-->
+    <string name="calculator">Calculator</string>
+    <string name="Quadratic_calculator">Quadratic_calculator</string>
+    <string name="buttonXSquare">X^2</string>
+    <string name="X_Button">X</string>
+    <string name="buttonConstant">C</string>
+    <string name="Times_Table">Times Table</string>
+    <string name="Unit_COnverter">Unit Converter</string>
+    <string name="to">to</string>
+    <string name="Temperature_Converter">Temperature Converter</string>
+    <string name="Length_Converter">Length Converter</string>
+    <string name="Weight_Converter">Weight Converter</string>
+    <string name="Power_Converter">Power Converter</string>
+    <string name="Force_Converter">Force Converter</string>
+
+</resources>

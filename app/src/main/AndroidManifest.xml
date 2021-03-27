@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aditya.scientificcalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScientificCalculator">
+        <activity android:name=".ForceActivity"></activity>
+        <activity
+            android:name=".PowerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WeightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LengthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TemperatureConverter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UnitConverterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TimesTableActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

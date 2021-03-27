@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Quadratic Equation"
+    android:id="@+id/quad_eque"
+    />
+    <item
+        android:title="Unit Converter"
+        android:id="@+id/unit_converter"
+        />
+    <item
+        android:title="Times Table"
+        android:id="@+id/times_table"
+        />
+
+</menu>
