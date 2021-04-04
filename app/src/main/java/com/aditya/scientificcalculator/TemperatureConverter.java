@@ -1,6 +1,7 @@
 package com.aditya.scientificcalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
@@ -23,6 +24,11 @@ public class TemperatureConverter extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_temperature_converter);
+
+        Toolbar toolbar = findViewById(R.id.toolbarTemperature);
+        setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Log.i(Tag, "--on create--");
         editText = findViewById(R.id.Input11);

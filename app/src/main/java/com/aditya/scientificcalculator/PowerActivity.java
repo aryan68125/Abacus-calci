@@ -25,6 +25,9 @@ public class PowerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_power);
         toolbar = findViewById(R.id.toolbarPowerConverter);
         setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         Log.i(Tag, "--on create--");
         editText = findViewById(R.id.Input21);
         editText.setShowSoftInputOnFocus(false); //this will disable the keyboard pop up of the device

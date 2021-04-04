@@ -27,6 +27,9 @@ public class quadActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quad);
         toolbar = findViewById(R.id.toolbarQuadraticCalculator);
         setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         editText = findViewById(R.id.editText2);
         editText.setShowSoftInputOnFocus(false); //this will disable the keyboard pop up of the device
         textView = findViewById(R.id.textView);

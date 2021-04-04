@@ -12,15 +12,15 @@
         android:id="@+id/Input11"
         android:layout_width="match_parent"
         android:layout_height="101dp"
+        android:autofillHints="false"
         android:inputType="none"
         android:textAlignment="textEnd"
-        android:autofillHints="false"
         android:textColor="#FCFCFC"
         android:textColorHint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarCalculator" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbarTemperature" />
 
     <Spinner
         android:id="@+id/outputspinner11"
@@ -261,7 +261,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputspinner12" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarCalculator"
+        android:id="@+id/toolbarTemperature"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#000000"

@@ -25,6 +25,9 @@ public class WeightActivity extends AppCompatActivity {
         setContentView(R.layout.activity_weight);
         toolbar = findViewById(R.id.toolbarWeightConverter);
         setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         Log.i(Tag, "--on create--");
         editText = findViewById(R.id.Input20);
         editText.setShowSoftInputOnFocus(false); //this will disable the keyboard pop up of the device

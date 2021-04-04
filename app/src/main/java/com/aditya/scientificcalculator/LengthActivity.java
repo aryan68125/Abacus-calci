@@ -27,6 +27,9 @@ public class LengthActivity extends AppCompatActivity {
         Log.i(Tag, "--on create--");
         toolbar = findViewById(R.id.toolbarLengthConverter);
         setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         editText = findViewById(R.id.Input12);
         editText.setShowSoftInputOnFocus(false); //this will disable the keyboard pop up of the device
         spinnerinput = findViewById(R.id.inputspinner14);

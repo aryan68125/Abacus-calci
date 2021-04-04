@@ -21,6 +21,9 @@ public class TimesTableActivity extends AppCompatActivity {
         setContentView(R.layout.activity_times_table);
         toolbar = findViewById(R.id.toolbarTimesTable);
         setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         SeekBar seekBar = (SeekBar) findViewById(R.id.seekBar);
         final ListView listView = (ListView) findViewById(R.id.listView);
         TextView textView2 = (TextView) findViewById(R.id.textViewTimesTables);

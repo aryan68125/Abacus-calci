@@ -29,6 +29,9 @@ public class UnitConverterActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbarUnitConverter);
         setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         listView = findViewById(R.id.listView);
 
         //creating an item holder array for listView

@@ -26,6 +26,8 @@ public class ForceActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbarForceConverter);
         setSupportActionBar(toolbar);
+        //calling get support action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Log.i(Tag, "--on create--");
         editText = findViewById(R.id.Input22);
         editText.setShowSoftInputOnFocus(false); //this will disable the keyboard pop up of the device
