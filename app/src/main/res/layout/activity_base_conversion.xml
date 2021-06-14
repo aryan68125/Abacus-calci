@@ -4,28 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall_eighteen"
-    tools:context=".quadActivity">
+    android:background="@drawable/mountain_background"
+    tools:context=".Base_conversion">
 
     <!--this is a custome tool bar added to our application-->
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/answer_of_conversion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="false"
+        android:background="@android:drawable/screen_background_dark_transparent"
         android:hint="@string/editText"
         android:inputType="none"
         android:textAlignment="textEnd"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout_base"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-    <!--android:scrollbars="vertical" to the textView to make it
-scrollable then go to the textView in the java file -->
+
     <TableLayout
-        android:id="@+id/tableLayout"
+        android:id="@+id/tableLayout_base"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -37,27 +37,8 @@ scrollable then go to the textView in the java file -->
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/buttonDel2"
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_shape"
-                android:hapticFeedbackEnabled="true"
-                android:onClick="backspaceButton"
-                android:text="@string/BackSpace"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
-                app:srcCompat="@drawable/back_space_key" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
             <Button
-                android:id="@+id/buttonSeven"
+                android:id="@+id/button_seven_7"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -70,7 +51,7 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonEight"
+                android:id="@+id/button_eight_8"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -82,7 +63,7 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonNine"
+                android:id="@+id/button_nine_9"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -94,14 +75,14 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonXSquare"
+                android:id="@+id/button_A"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
-                android:onClick="xSquare"
-                android:text="@string/buttonXSquare"
+                android:onClick="hex_A"
+                android:text="@string/hex_A"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
         </TableRow>
@@ -111,7 +92,7 @@ scrollable then go to the textView in the java file -->
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/buttonFour"
+                android:id="@+id/button_four_4"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -123,7 +104,7 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonFive"
+                android:id="@+id/button_five_5"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -135,7 +116,7 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonSix"
+                android:id="@+id/button_six_6"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -147,14 +128,14 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonX"
+                android:id="@+id/button_B"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
-                android:onClick="X_Button"
-                android:text="@string/X_Button"
+                android:onClick="hex_B"
+                android:text="@string/hex_B"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
         </TableRow>
@@ -164,7 +145,7 @@ scrollable then go to the textView in the java file -->
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/buttonOne"
+                android:id="@+id/button_one_1"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -176,7 +157,7 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonTwo"
+                android:id="@+id/button_two_2"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -188,7 +169,7 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonThree"
+                android:id="@+id/button_three_3"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -200,14 +181,14 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonConstant"
+                android:id="@+id/button_C"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
-                android:onClick="ButtonConstant"
-                android:text="@string/buttonConstant"
+                android:onClick="hex_C"
+                android:text="@string/hex_C"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
         </TableRow>
@@ -217,19 +198,7 @@ scrollable then go to the textView in the java file -->
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/buttonDots"
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_shape"
-                android:onClick="dotButton"
-                android:text="@string/buttonDot"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp" />
-
-            <Button
-                android:id="@+id/buttonZero"
+                android:id="@+id/button_zero_0"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -241,7 +210,64 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonEqualsss"
+                android:id="@+id/button_E"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:onClick="hex_E"
+                android:text="@string/hex_E"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button_F"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:onClick="hex_F"
+                android:text="@string/hex_F"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button_D"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:onClick="hex_D"
+                android:text="@string/hex_D"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--for defining text sizes we are using sp instead of dp
+            "@drawable/button_shape" contains the shape of our buttons-->
+
+            <Button
+                android:id="@+id/button_Clear"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:onClick="clearButton"
+                android:text="CLR"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonEqual"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
@@ -253,40 +279,42 @@ scrollable then go to the textView in the java file -->
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonMinus"
+                android:id="@+id/answer_save_Button"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_shape"
-                android:onClick="buttonMinus"
-                android:text="@string/buttonSub"
+                android:onClick="answer_save_Button"
+                android:text="@string/buttonAns"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/button_Del_number"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:hapticFeedbackEnabled="true"
+                android:onClick="backspaceButton"
+                android:text="@string/BackSpace"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:srcCompat="@drawable/back_space_key" />
+
+            <!--Image button allows you to overlay an icon over an existing background-->
 
         </TableRow>
-
     </TableLayout>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1.0"
-        android:scrollbars="vertical"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <!--we want our editText to type the number from right to left
     in order to do this we will type = android:textAlignment="textEnd"
     this will allow us to typ the text from right to left-->
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarQuadraticCalculator"
+        android:id="@+id/toolbarBaseConverter"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#000000"
@@ -294,6 +322,6 @@ scrollable then go to the textView in the java file -->
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/Quadratic_calculator" />
+        app:title="@string/baseActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

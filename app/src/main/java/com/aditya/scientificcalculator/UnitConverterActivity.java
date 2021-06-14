@@ -35,7 +35,7 @@ public class UnitConverterActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
 
         //creating an item holder array for listView
-        String[] item = {"Length Converter", "Weight Converter" , "Power Converter", "Temperature converter" , "Force Converter"};
+        String[] item = {"Length Converter", "Weight Converter" , "Power Converter", "Temperature converter" , "Force Converter","Base -N conversion"};
 
         final ListAdapter listItem = new ArrayAdapter<String>(this, R.layout.row, item); //this will set the contents inside the string array to the listView
         listView.setAdapter(listItem);
@@ -85,6 +85,14 @@ public class UnitConverterActivity extends AppCompatActivity {
                 if(position == 4)
                 {
                     Intent intent = new Intent(UnitConverterActivity.this, ForceActivity.class);
+                    startActivity(intent);
+                    //activity transition animation
+                    overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
+                }
+
+                if(position == 5)
+                {
+                    Intent intent = new Intent(UnitConverterActivity.this, Base_conversion.class);
                     startActivity(intent);
                     //activity transition animation
                     overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);

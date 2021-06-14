@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Abacus</string>
+    <string name="app_name">Calculator</string>
 
     <!-- strings related to calculator buttons -->
     <string name="button7">7</string>
@@ -48,5 +48,14 @@
     <string name="Power_Converter">Power Converter</string>
     <string name="Force_Converter">Force Converter</string>
     <string name="Developer_info">Developer Information</string>
+
+    <!--Activity base conversion-->
+    <string name="hex_A">A</string>
+    <string name="hex_B">B</string>
+    <string name="hex_C">C</string>
+    <string name="hex_D">D</string>
+    <string name="hex_E">E</string>
+    <string name="hex_F">F</string>
+    <string name="baseActivity">Base Converter</string>
 
 </resources>

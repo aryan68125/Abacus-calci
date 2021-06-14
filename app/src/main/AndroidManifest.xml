@@ -4,58 +4,62 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/cal"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ScientificCalculator">
-        <activity android:name=".SplashActivity"
-            android:screenOrientation="portrait">
+        <activity android:name=".Base_conversion"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".UnitConverterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DevActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity"/>
-
-        <activity android:name=".ForceActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".UnitConverterActivity"/>
+        <activity
+            android:name=".DevActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForceActivity"
+            android:parentActivityName=".UnitConverterActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PowerActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".UnitConverterActivity"/>
+            android:parentActivityName=".UnitConverterActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".WeightActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".UnitConverterActivity"/>
+            android:parentActivityName=".UnitConverterActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LengthActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".UnitConverterActivity"/>
+            android:parentActivityName=".UnitConverterActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TemperatureConverter"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".UnitConverterActivity"/>
+            android:parentActivityName=".UnitConverterActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".UnitConverterActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TimesTableActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".quadActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Decimal to Binary"
+        android:id="@+id/dec_bin"
+        />
+    <item
+        android:title="Binary to Decimal"
+        android:id="@+id/bin_dec"
+        />
+    <item
+        android:title="Hex to Bin"
+        android:id="@+id/hex_bin"
+        />
+    <item
+        android:title="Hex to Dec"
+        android:id="@+id/hex_dec"
+        />
+    <item
+        android:title="Dec to Hex"
+        android:id="@+id/dec_hex"
+        />
+    <item
+        android:title="Bin to Hex"
+        android:id="@+id/bin_hex"
+        />
+</menu>
