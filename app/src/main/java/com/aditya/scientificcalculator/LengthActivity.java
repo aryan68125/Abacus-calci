@@ -3,11 +3,14 @@ package com.aditya.scientificcalculator;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -23,7 +26,6 @@ public class LengthActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_length);
-
         Log.i(Tag, "--on create--");
         toolbar = findViewById(R.id.toolbarLengthConverter);
         setSupportActionBar(toolbar);
@@ -45,7 +47,21 @@ public class LengthActivity extends AppCompatActivity {
         spinneroutput.setAdapter(ad1);
     }
 
+    // this event will enable the back activity action bar back button
+    // function to the button on press activity action bar back button
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                overridePendingTransition(R.anim.nothing, R.anim.slide_out_right);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     //exit animation of currently active activity
+    //this function handles android os back button
     @Override
     public void finish()
     {

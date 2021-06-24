@@ -267,6 +267,10 @@ public class Base_conversion extends AppCompatActivity {
                 bin_hex = 1;
                 Log.i("item","binary to hexadecimal");
                 return true;
+            case android.R.id.home:
+                this.finish();
+                overridePendingTransition(R.anim.nothing, R.anim.slide_out_right);
+                return true;
             default:
                 return false;
         }

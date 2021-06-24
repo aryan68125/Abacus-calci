@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ScientificCalculator">
         <activity android:name=".Base_conversion"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            android:parentActivityName=".UnitConverterActivity">
+        </activity>
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait"

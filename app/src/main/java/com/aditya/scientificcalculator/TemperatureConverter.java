@@ -1,11 +1,13 @@
 package com.aditya.scientificcalculator;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -44,6 +46,19 @@ public class TemperatureConverter extends AppCompatActivity {
         String[] output = {"Celsius", "Fahrenheit", "Kelvin"}; //for output spinner
         ArrayAdapter out = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, output);
         spinneroutput.setAdapter(out);
+    }
+
+    // this event will enable the back activity action bar back button
+    // function to the button on press activity action bar back button
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                overridePendingTransition(R.anim.nothing, R.anim.slide_out_right);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     //exit animation of currently active activity
