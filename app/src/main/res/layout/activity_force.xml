@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall_twenty"
+    android:background="@drawable/velorant_velar"
     tools:context=".ForceActivity">
 
     <!--this is a custome tool bar added to our application-->
@@ -255,7 +255,7 @@
         android:id="@+id/textView22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackgroundBorderless"
+        android:background="@drawable/list_view_text_view"
         android:text="@string/to"
         android:textAlignment="center"
         android:textColor="#FFFFFF"

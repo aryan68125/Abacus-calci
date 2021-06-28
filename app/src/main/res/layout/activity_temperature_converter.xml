@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/activity_ix_portrait"
+    android:background="@drawable/velorant_ix"
     tools:context=".TemperatureConverter">
 
     <!--this is a custome tool bar added to our application-->
@@ -54,19 +54,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/buttonDel3"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_shape"
-                android:hapticFeedbackEnabled="true"
-                android:onClick="backspaceButton"
-                android:text="@string/BackSpace"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
-                app:srcCompat="@drawable/back_space_key" />
             <Button
                 android:id="@+id/buttonClear2"
                 android:layout_width="wrap_content"
@@ -79,6 +66,20 @@
                 android:text="@string/buttonClear"
                 android:textColor="#FFFFFF"
                 android:textSize="13sp"
+                app:srcCompat="@drawable/back_space_key" />
+
+            <ImageButton
+                android:id="@+id/buttonDel3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:hapticFeedbackEnabled="true"
+                android:onClick="backspaceButton"
+                android:text="@string/BackSpace"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
                 app:srcCompat="@drawable/back_space_key" />
         </TableRow>
 
@@ -250,9 +251,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/list_view_text_view"
         android:text="@string/to"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="24sp"

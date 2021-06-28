@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall_ten"
+    android:background="@drawable/add_activity"
     tools:context=".WeightActivity">
 
     <!--this is a custome tool bar added to our application-->

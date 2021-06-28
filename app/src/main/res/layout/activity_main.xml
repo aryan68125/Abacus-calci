@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall_ninteen"
+    android:background="@drawable/velorant_v"
     tools:context=".MainActivity">
 
     <!--this is a custome tool bar added to our application-->
@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="false"
+        android:background="@drawable/list_view_text_view"
         android:hint="@string/editText"
         android:inputType="none"
         android:textAlignment="textEnd"

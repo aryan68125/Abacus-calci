@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mountain_background"
+    android:background="@drawable/phoenix_activity"
     tools:context=".Base_conversion">
 
     <!--this is a custome tool bar added to our application-->

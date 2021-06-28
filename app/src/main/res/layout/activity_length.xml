@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall_eight"
+    android:background="@drawable/velorant_velar_i"
     tools:context=".LengthActivity">
 
     <!--this is a custome tool bar added to our application-->
@@ -252,9 +252,11 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/list_view_text_view"
         android:text="@string/to"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="24sp"

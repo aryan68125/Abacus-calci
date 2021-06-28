@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall_six"
+    android:background="@drawable/velorant_velar_xi"
     tools:context=".PowerActivity">
 
     <!--this is a custome tool bar added to our application-->
