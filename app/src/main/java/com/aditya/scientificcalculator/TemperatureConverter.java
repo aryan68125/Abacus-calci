@@ -259,6 +259,13 @@ public class TemperatureConverter extends AppCompatActivity {
         updateEditText("0");
     }
 
+    public void MinusButton(View view) {
+        //now here we will use the update text function that we just created to update the text in our editText
+        if (editText.getText().toString().equals("Input Field is Empty")|| editText.getText().toString().equals("Error 2X00f_00#You!")) {
+            editText.setText(""); //clear the input field is the hint input is there when the user taps on it
+        }
+        updateEditText("-");
+    }
     public void equalsButton(View view) {
         try {
             Double result;
