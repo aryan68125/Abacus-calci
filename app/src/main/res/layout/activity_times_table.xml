@@ -10,13 +10,11 @@
     <!--this is a custome tool bar added to our application-->
     <ListView
         android:id="@+id/listView"
-        android:layout_width="386dp"
-        android:layout_height="507dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginEnd="13dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewTimesTables">
 

@@ -2,6 +2,7 @@ package com.aditya.scientificcalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -65,6 +66,7 @@ public class TimesTableActivity extends AppCompatActivity {
                      */
                     result.add(Integer.toString(timestablenumber) + " x " + Integer.toString(j++) + " = " + Integer.toString(i * timestablenumber));  //this is the method to add something inside an array using seekBar
                 }
+
                 ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.row, result);
                 listView.setAdapter(arrayAdapter);
             }
