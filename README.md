@@ -1,6 +1,7 @@
 # Abacus-calci
 This is the improved version of Abacus the calculator with improved User interface and aesthetics 
 in order to use gif images in android projects you have to add 
+
 step 1:- Add the lines below in build.gradel Project file
 ```buildscript {
     repositories {
