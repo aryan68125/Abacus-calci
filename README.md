@@ -28,9 +28,9 @@ allprojects {
 
 step 2:- Add the dependency in you build.gradle Application file
 ```` 
-```
+
 implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.20'
-```
+
 ````
 
 step 2:- to use gif images in your activity xml files just type the following code:-
