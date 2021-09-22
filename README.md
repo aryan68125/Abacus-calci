@@ -48,4 +48,5 @@ step 2:- to use gif images in your activity xml files just type the following co
 
 Preview images for this application are as below:
 
-
+Splash screen:
+![](app/src/main/res/drawable-v24/one.png)
