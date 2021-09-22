@@ -50,3 +50,7 @@ Preview images for this application are as below:
 
 Splash screen:
 ![](app/src/main/res/drawable-v24/one.png)
+
+Main Calculator Activity:
+![](app/src/main/res/drawable-v24/two.png)
+![](app/src/main/res/drawable-v24/three.png)
