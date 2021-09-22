@@ -1,6 +1,6 @@
 # Abacus-calci
 This is the improved version of Abacus the calculator with improved User interface and aesthetics 
-in order to use gid images in android projects you have to add 
+in order to use gif images in android projects you have to add 
 step 1:- Add the lines below in build.gradel Project file
 buildscript {
     repositories {
@@ -38,3 +38,11 @@ step 2:- to use gif images in your activity xml files just type the following co
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
         and you are good to go
+
+Preview images for this application are as below:
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
