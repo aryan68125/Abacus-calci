@@ -6,6 +6,8 @@ Features:-
 4. Base converter (decimal to hexadecimal, etc)
 5. Times table
 
+You can download the apk file for this project from the releases section
+
 Preview images for this application are as below:
 
 Splash screen:
